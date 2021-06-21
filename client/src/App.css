@@ -27,12 +27,12 @@
   padding-top: 2em;
 }
 
-.entry, body{
+.entry, p{
   text-align: center;
   justify-content: center;
   text-overflow: ellipsis;
-  display: -webkit-box;
   overflow: hidden;
+  display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   padding: 0.5em;
