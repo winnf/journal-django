@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Entry from './entry-component';
 
 const JournalEntries = (props) => (
     <div className="entries-container">
-        {props.entries.map((entry, index) => (
+        {props.entries.map((entry) => (
             <Entry key={entry.id}
             id = {entry.id}
             title={entry.title}

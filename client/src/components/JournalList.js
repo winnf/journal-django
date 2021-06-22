@@ -45,7 +45,7 @@ class JournalList extends Component {
         <header className="App-header">
           <a
             className="App-link"
-            href=""
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >

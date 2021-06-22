@@ -24,7 +24,7 @@
 }
 
 .entries-container {
-  padding-top: 2em;
+  padding: 3em;
 }
 
 .entry, p{
@@ -38,8 +38,28 @@
   padding: 0.5em;
 }
 
+.entry-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .entry-title {
   font-size: 2em;
+  padding-top: 2em;
+}
+
+.entry-content {
+  padding: 1em 3em 1em 3em;
+}
+
+.entry-link {
+  font-size: 1.5em;
+}
+
+.entry-date {
+  font-style: italic;
 }
 
 @keyframes App-logo-spin {

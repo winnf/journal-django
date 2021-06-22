@@ -68,7 +68,7 @@ export default class CustomModal extends Component {
 
     return (
       <Modal isOpen={true} toggle={toggle}>
-        <ModalHeader toggle={toggle}>Add New Entry</ModalHeader>
+        <ModalHeader toggle={toggle}>Edit Entry</ModalHeader>
         <ModalBody>
           <Form>
             <FormGroup>
@@ -78,7 +78,7 @@ export default class CustomModal extends Component {
                 id="entry-title"
                 name="title"
                 onChange={this.handleChange}
-                placeholder="Enter Entry Title"
+                placeholder={this.state.activeEntry.title}
               />
             </FormGroup>
             <FormGroup>
@@ -88,7 +88,7 @@ export default class CustomModal extends Component {
                 id="entry-content"
                 name="content"
                 onChange={this.handleChange}
-                placeholder="Enter Entry content"
+                placeholder={this.state.activeEntry.content}
               />
             </FormGroup>
             <FormGroup>
